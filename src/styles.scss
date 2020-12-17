@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+$blue: #1665d8;
+$green: #34aa44;
+$purple: #6758f3;
+$orange: #f6ab2f;
+$red: #e73c1e;
+$white: #ffffff;
+$black: #000000;
+$primary-text-color: #3e3f42;
+$secondary-text-color: #9ea0a5;
+$border-color: #eaedf3;
+$background-color: #fbfbfd;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: $background-color;
+  display: flex;
+}
